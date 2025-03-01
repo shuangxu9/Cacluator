@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小游戏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 让视频充满屏幕，可能会裁剪部分 */
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay controls>
+        <source src="Game.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
